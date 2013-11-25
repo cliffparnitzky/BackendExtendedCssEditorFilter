@@ -77,14 +77,6 @@ class CssEditorFilter extends \Backend
 	 */
 	public static function getCurrentFilterDefinition($strTable)
 	{
-		$objCssFilter = new CssEditorFilter();
-		return $objCssFilter->getFilterDefinition($strTable);
-	}
-	/**
-	 * Returns the filter definitions (will be connecte with AND)
-	 */
-	private function getFilterDefinition($strTable)
-	{
 		$arrFilterDefinitions = array();
 		
 		// adding special filter definitions
