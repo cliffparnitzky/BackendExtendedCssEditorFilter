@@ -8,7 +8,7 @@ Installation
 ------------
 
 The extension is not published in contao extension repository.
-Install it manually.
+Install it manually or via [composer](https://packagist.org/packages/cliffparnitzky/backend-extended-css-editor-filter).
 
 
 Tracker
@@ -21,7 +21,7 @@ Compatibility
 -------------
 
 - min. version: Contao 3.0.x
-- max. version: Contao 3.2.0
+- max. version: Contao 3.2.x
 
 
 Dependency
@@ -41,5 +41,8 @@ Screenshots
 Extending
 ---------
 
-Adding additional filters is very easy. Just define a new entry for `$GLOBALS['TL_STYLE_SHEET_FILTER']` of `$GLOBALS['TL_STYLE_FILTER']`. The key could be used for translation.
-The value must be a SQL query that receives one parameter. This will later be inserted automatically.
+Adding additional filters is very easy.
+
+Just define a new entry for `$GLOBALS['TL_STYLE_SHEET_FILTER']` or `$GLOBALS['TL_STYLE_FILTER']` (see `config.php``).
+
+The key could be used for translation. The value must be a SQL query that receives one parameter. It will be inserted automatically.

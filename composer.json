@@ -1,0 +1,34 @@
+{
+	"name":"cliffparnitzky/backend-extended-css-editor-filter",
+	"description":"Provides extended filter functions for the internal CSS editor.",
+	"keywords":["contao","backend","css","css editor", "filter", "css filter"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/BackendExtendedCssEditorFilter/issues",
+		"source":"https://github.com/cliffparnitzky/BackendExtendedCssEditorFilter"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.0.0,<4.0.0-dev",
+		"contao-community-alliance/composer-installer":"*"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/BackendExtendedCssEditorFilter":"system/modules/BackendExtendedCssEditorFilter"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
